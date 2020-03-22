@@ -73,46 +73,46 @@ namespace phonetic{
 
 						else if(tmp[j] == 'e' || tmp[j] == 'E'){
 							if(check[j] == 'e' || check[j] == 'E')
-								match = true	
+								match = true;	
 							
 						}
 
 
 						else if(tmp[j] == 'h' || tmp[j] == 'H'){
 							if(check[j] == 'h' || check[j] == 'H')
-								match = true	
+								match = true;	
 							
 						}
 
 						else if(tmp[j] == 'l' || tmp[j] == 'L'){
 							if(check[j] == 'l' || check[j] == 'L')
-								match = true	
+								match = true;	
 							
 						}
 
 						else if(tmp[j] == 'm' || tmp[j] == 'M'){
 							if(check[j] == 'm' || check[j] == 'M')
-								match = true	
+								match = true;	
 							
 						}
 
 						else if(tmp[j] == 'n' || tmp[j] == 'N'){
 							if(check[j] == 'n' || check[j] == 'N')
-								match = true	
+								match = true;	
 							
 						}
 
 
 						else if(tmp[j] == 'r' || tmp[j] == 'R'){
 							if(check[j] == 'r' || check[j] == 'R')
-								match = true	
+								match = true;	
 							
 						}
 
 
 						else if(tmp[j] == 'x' || tmp[j] == 'X'){
 							if(check[j] == 'x' || check[j] == 'X')
-								match = true	
+								match = true;	
 							
 						}
 														
