@@ -71,6 +71,14 @@ namespace phonetic{
 								match = true;
 						}
 
+
+						else if(tmp[j] == 'a' || tmp[j] == 'A'){
+							if(check[j] == 'a' || check[j] == 'A')
+								match = true;	
+							
+						}
+
+
 						else if(tmp[j] == 'e' || tmp[j] == 'E'){
 							if(check[j] == 'e' || check[j] == 'E')
 								match = true;	

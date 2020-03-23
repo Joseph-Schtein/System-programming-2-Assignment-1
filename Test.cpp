@@ -144,102 +144,93 @@ TEST_CASE("Test replace muiltply letters, and change cases") {
 
 
 TEST_CASE("Test replace muiltply letters, and change cases") {
-    string text = "Battle is an orgy of disorder";
-    CHECK(find(text, "happy") == string("happy"));
-    CHECK(find(text, "habby") == string("happy"));
-    CHECK(find(text, "hapby") == string("happy"));
-    CHECK(find(text, "habpy") == string("happy"));
-    /* Add more checks here */
+    string text = "Battle is an urgi of disorder";
+    CHECK(find(text, "Paddle") == string("Battle"));
+    CHECK(find(text, "orgy") == string("urgi"));
+    CHECK(find(text, "uP") == string("of"));
+    CHECK(find(text, "Dysorter") == string("disorder"));
 }
 
 
 
 TEST_CASE("Test replace muiltply letters, and change cases") {
-    string text = "Success is how high you bounce when you hit bottom";
-    CHECK(find(text, "happy") == string("happy"));
-    CHECK(find(text, "habby") == string("happy"));
-    CHECK(find(text, "hapby") == string("happy"));
-    CHECK(find(text, "habpy") == string("happy"));
-    /* Add more checks here */
+    string text = "Success is how high Iuo bounce when you hit puDDOm";
+    CHECK(find(text, "zukqeZS") == string("Success"));
+    CHECK(find(text, "puonqe") == string("bounce"));
+    CHECK(find(text, "bottom") == string("puDDOm"));
+    CHECK(find(text, "you") == string("Iuo"));
 }
 
 
 
 TEST_CASE("Test replace muiltply letters, and change cases") {
-    string text = "Better to fight for something than live for nothing";
-    CHECK(find(text, "happy") == string("happy"));
-    CHECK(find(text, "habby") == string("happy"));
-    CHECK(find(text, "hapby") == string("happy"));
-    CHECK(find(text, "habpy") == string("happy"));
-    /* Add more checks here */
-}
-
-
-
-
-TEST_CASE("Test replace muiltply letters, and change cases") {
-    string text = "It is not that I am so smart it is just that I stay with problems longer ";
-    CHECK(find(text, "happy") == string("happy"));
-    CHECK(find(text, "habby") == string("happy"));
-    CHECK(find(text, "hapby") == string("happy"));
-    CHECK(find(text, "habpy") == string("happy"));
-    /* Add more checks here */
-}
-
-
-
-TEST_CASE("Test replace muiltply letters, and change cases") {
-    string text = "Pure mathematics is in its way the poetry of logical ideas";
-    CHECK(find(text, "happy") == string("happy"));
-    CHECK(find(text, "habby") == string("happy"));
-    CHECK(find(text, "hapby") == string("happy"));
-    CHECK(find(text, "habpy") == string("happy"));
-    /* Add more checks here */
-}
-
-
-
-TEST_CASE("Test replace muiltply letters, and change cases") {
-    string text = "Love is a better teacher than duty";
-    CHECK(find(text, "happy") == string("happy"));
-    CHECK(find(text, "habby") == string("happy"));
-    CHECK(find(text, "hapby") == string("happy"));
-    CHECK(find(text, "habpy") == string("happy"));
-    /* Add more checks here */
-}
-
-
-
-TEST_CASE("Test replace muiltply letters, and change cases") {
-    string text = "When the solution is simple God is answering";
-    CHECK(find(text, "happy") == string("happy"));
-    CHECK(find(text, "habby") == string("happy"));
-    CHECK(find(text, "hapby") == string("happy"));
-    CHECK(find(text, "habpy") == string("happy"));
-    /* Add more checks here */
-}
-
-
-
-TEST_CASE("Test replace muiltply letters, and change cases") {
-    string text = "God always takes the simpelst way";
-    CHECK(find(text, "happy") == string("happy"));
-    CHECK(find(text, "habby") == string("happy"));
-    CHECK(find(text, "hapby") == string("happy"));
-    CHECK(find(text, "habpy") == string("happy"));
-    /* Add more checks here */
+    string text = "Better to fight for something than live for nuthynj";
+    CHECK(find(text, "Bighd") == string("fight"));
+    CHECK(find(text, "nothing") == string("nuthynj"));
+    CHECK(find(text, "ZumedhYng") == string("something"));
+    CHECK(find(text, "for") == string("for"));
 }
 
 
 
 
 TEST_CASE("Test replace muiltply letters, and change cases") {
-    string text = "The faster you go the shorter you are";
-    CHECK(find(text, "happy") == string("happy"));
-    CHECK(find(text, "habby") == string("happy"));
-    CHECK(find(text, "hapby") == string("happy"));
-    CHECK(find(text, "habpy") == string("happy"));
-    /* Add more checks here */
+    string text = "It is not that Y am so smart it is just that I stay with problems longer ";
+    CHECK(find(text, "Frublemz") == string("problems"));
+    CHECK(find(text, "I") == string("Y"));
+    CHECK(find(text, "zMARd") == string("smart"));
+    CHECK(find(text, "Vidh") == string("with"));
+}
+
+
+
+TEST_CASE("Test replace muiltply letters, and change cases") {
+    string text = "Pure mAdhEmaTiKz is in its way the poetry of luJyqal ideas";
+    CHECK(find(text, "mathematics") == string("mAdhEmaTiKz"));
+    CHECK(find(text, "BoeDri") == string("poetry"));
+    CHECK(find(text, "vAi") == string("way"));
+    CHECK(find(text, "logical") == string("luJyqal"));
+}
+
+
+
+TEST_CASE("Test replace muiltply letters, and change cases") {
+    string text = "Love YZ a better DeaqhEr than doti";
+    CHECK(find(text, "pedder") == string("better"));
+    CHECK(find(text, "is") == string("YZ"));
+    CHECK(find(text, "duty") == string("doti"));
+    CHECK(find(text, "teacher") == string("DeaqhEr"));
+}
+
+
+
+TEST_CASE("Test replace muiltply letters, and change cases") {
+    string text = "vhen the solution is SymFle God is answering";
+    CHECK(find(text, "zulUtiOn") == string("solution"));
+    CHECK(find(text, "simple") == string("SymFle"));
+    CHECK(find(text, "AnzwerynJ") == string("answering"));
+    CHECK(find(text, "When") == string("vhen"));
+}
+
+
+
+TEST_CASE("Test replace muiltply letters, and change cases") {
+    string text = "God always takes THE zymbelSd way";
+    CHECK(find(text, "Jut") == string("God"));
+    CHECK(find(text, "simpelst") == string("zymbelSd"));
+    CHECK(find(text, "Wai") == string("way"));
+    CHECK(find(text, "the") == string("THE"));
+}
+
+
+
+
+TEST_CASE("Test replace muiltply letters, and change cases") {
+    string text = "The faster you go the zhUrder you ARE";
+    CHECK(find(text, "BazdEr") == string("faster"));
+    CHECK(find(text, "shorter") == string("zhUrder"));
+    CHECK(find(text, "you") == string("you"));
+    CHECK(find(text, "are") == string("ARE"));
 }
 
 
@@ -247,34 +238,31 @@ TEST_CASE("Test replace muiltply letters, and change cases") {
 
 TEST_CASE("Test replace muiltply letters, and change cases") {
     string text = "Information is not knowledge";
-    CHECK(find(text, "happy") == string("happy"));
-    CHECK(find(text, "habby") == string("happy"));
-    CHECK(find(text, "hapby") == string("happy"));
-    CHECK(find(text, "habpy") == string("happy"));
-    /* Add more checks here */
+    CHECK(find(text, "Ynpurmadyun") == string("Information"));
+    CHECK(find(text, "INFORMATION") == string("Information"));
+    CHECK(find(text, "qnuvletje") == string("knowledge"));
+    CHECK(find(text, "cnUWleDge") == string("knowledge"));
 }
 
 
 
 TEST_CASE("Test replace muiltply letters, and change cases") {
-    string text = "Coincidence is Gods way of remaining anonymous";
-    CHECK(find(text, "happy") == string("happy"));
-    CHECK(find(text, "habby") == string("happy"));
-    CHECK(find(text, "hapby") == string("happy"));
-    CHECK(find(text, "habpy") == string("happy"));
-    /* Add more checks here */
+    string text = "KuynqitenCe is Jodz VaI of remaining AnUnImuos";
+    CHECK(find(text, "Coincidence") == string("KuynqitenCe"));
+    CHECK(find(text, "anonymous") == string("AnUnImuos"));
+    CHECK(find(text, "way") == string("VaI"));
+    CHECK(find(text, "Gods") == string("Jodz"));
 }
 
 
 
 
 TEST_CASE("Test replace muiltply letters, and change cases") {
-    string text = "live laught love";
-    CHECK(find(text, "happy") == string("happy"));
-    CHECK(find(text, "habby") == string("happy"));
-    CHECK(find(text, "hapby") == string("happy"));
-    CHECK(find(text, "habpy") == string("happy"));
-    /* Add more checks here */
+    string text = "LYWe laught love";
+    CHECK(find(text, "live") == string("LYWe"));
+    CHECK(find(text, "lAojhd") == string("laught"));
+    CHECK(find(text, "LauGhT") == string("laught"));
+    CHECK(find(text, "love") == string("love"));
 }
 
 
