@@ -149,6 +149,6 @@ namespace phonetic{
 			return tmp;
 		
 		else
-			throw;
+			throw invalid_argument("Did not find the word "+ check +" in the text" );
 	}	
 }
